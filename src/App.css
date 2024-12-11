@@ -1,0 +1,43 @@
+.container {
+	margin: auto;
+	width: 50%;
+	min-width: 425px;
+	padding: 40px;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	border: solid;
+	max-width: 300px;
+	border-color: rgba(28, 29, 29, 0.179);
+	border-radius: 20px;
+	font-family: monospace;
+	margin-top: 150px;
+}
+h2 {
+	font-size: 3rem;
+}
+span {
+	font-size: 3rem;
+	display: inline-block;
+}
+button {
+	border: none;
+	border-radius: 10px;
+	padding: 7px 20px;
+	margin: 5px;
+	font-size: 1.5rem;
+	text-align: center;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+.start:hover {
+	background-color: rgba(5, 168, 78, 0.345);
+}
+.stop:hover {
+	background-color: rgba(208, 7, 7, 0.253);
+}
+.reset:hover{
+    background-color: rgba(112, 111, 111, 0.447);
+}
+
